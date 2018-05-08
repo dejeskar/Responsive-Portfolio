@@ -1,0 +1,45 @@
+
+.navbars {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    border: #666666;
+}
+
+.badge-secondary {
+    float: left;
+}
+
+.myname {
+    font-size: 10;
+}
+
+.img-thumbnail {
+    block-size: 40px 40px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+
+} 
+
+@media screen and (max-width: 768px) {
+    body {
+
+
+    }
+} 
+@media screen and (max-width: 640px) {
+    body {
+            background-color: orange;
+            header: static;
+    }
+} 
